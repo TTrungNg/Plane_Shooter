@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/userInputLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:gravity="center"
+    android:background="@drawable/star_list"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:orientation="horizontal">
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+        <EditText
+            android:id="@+id/inputText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Who is this Commander?"
+            android:textAlignment="center"
+            android:textColorHint="#FFFFFF"
+            android:textSize="20sp"
+            android:textColor="#EAC280"
+            android:paddingTop="20dp"/>
+
+
+        <Button
+            android:id="@+id/submitBtn"
+            android:layout_width="346dp"
+            android:layout_height="83dp"
+            android:layout_marginBottom="141dp"
+            android:background="@drawable/btn_shape_round"
+            android:contentDescription="Submit"
+            android:fontFamily="@font/dune_rise"
+            android:onClick="submition"
+            android:text="SUBMIT"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

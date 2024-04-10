@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/shipPicker"
+    android:background="@drawable/skinbg">
+
+    <TextView
+        android:id="@+id/ship_name"
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:alpha="0.9"
+        android:fontFamily="@font/dune_rise"
+        android:gravity="center"
+        android:text="Fire Demon"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="482dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/arrow_up_float"
+            android:onClick="backBtn"
+            android:rotation="-90"
+            android:scaleX="1"
+            android:scaleY="0.07" />
+
+        <ImageView
+            android:id="@+id/skinImg"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:contentDescription="show skin"
+            android:src="@drawable/spaceship5" />
+
+
+        <ImageButton
+            android:id="@+id/next"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_shape_round"
+            android:contentDescription="next skin"
+            android:onClick="nextBtn"
+            android:rotation="270"
+            android:scaleX="3"
+            android:scaleY="3"
+            android:src="@android:drawable/arrow_down_float"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/pickBtn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/btn_shape_round"
+        android:fontFamily="@font/dune_rise"
+        android:text="PICK"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
