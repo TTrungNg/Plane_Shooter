@@ -84,13 +84,6 @@
             android:textStyle="italic" />
 
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:textColor="#330022"
-            android:textSize="20sp" />
-
         <Button
             android:id="@+id/button5"
             android:layout_width="match_parent"
@@ -122,6 +115,25 @@
             android:textSize="40sp"
             android:textStyle="bold"
             android:onClick="skinPopup"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text=""
+            android:textColor="#330022"
+            android:textSize="100sp" />
+
+        <Button
+            android:id="@+id/lbBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LEARDER\nBOARD"
+            android:background="@drawable/btn_shape_round"
+            android:fontFamily="@font/dune_rise"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:onClick="leaderboard"/>
 
 
     </LinearLayout>

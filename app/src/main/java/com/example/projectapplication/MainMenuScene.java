@@ -30,6 +30,7 @@ public class MainMenuScene extends AppCompatActivity {
     }
 
     public void startGame(View view) {
+
         startActivity(new Intent(this, MainActivity.class));
         Intent intent = getIntent();
         String message = intent.getStringExtra(UserInput.EXTRA_MESSAGE);
@@ -39,7 +40,10 @@ public class MainMenuScene extends AppCompatActivity {
 
     public void skinPopup(View view){
         startActivity(new Intent(this, skinActivity.class));
-        finish();
+    }
+
+    public void leaderboard(View view){
+        startActivity(new Intent(this, LeaderboardActivity.class));
     }
 
 }

@@ -50,7 +50,6 @@
             android:background="@drawable/btn_shape_round"
             android:contentDescription="Submit"
             android:fontFamily="@font/dune_rise"
-            android:onClick="submition"
             android:text="SUBMIT"
             android:textColor="#FFFFFF"
             android:textSize="40sp"

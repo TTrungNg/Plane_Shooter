@@ -26,7 +26,10 @@
         </activity>
         <activity android:name=".GameOverScene">
         </activity>
-        <activity android:name=".skinActivity">
+        <activity android:name=".LeaderboardActivity">
+        </activity>
+        <activity android:name=".skinActivity"
+            android:theme="@style/AppTheme.CustomTheme">
         </activity>
         <activity android:name=".WinnerScene">
         </activity>

@@ -504,6 +504,7 @@ public class SpaceGameView extends SurfaceView implements Runnable, SensorEventL
         paused = true;
         handler = null;
         Intent intent = new Intent(context, WinnerScene.class);
+
         intent.putExtra("score", score);
         context.startActivity(intent);
         ((Activity) context).finish();
