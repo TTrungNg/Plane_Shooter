@@ -46,4 +46,9 @@ public class MainMenuScene extends AppCompatActivity {
         startActivity(new Intent(this, LeaderboardActivity.class));
     }
 
+    public void abtUsBtn(View view){
+        startActivity(new Intent(this, abtUsActivity.class));
+
+    }
+
 }
